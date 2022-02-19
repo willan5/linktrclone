@@ -39,7 +39,7 @@ html, body {
 } 
 button{
     background:rgb(57, 224, 155) none repeat scroll 0% 0%;
-    padding:5px;
+    padding:5px 20px ;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -48,4 +48,7 @@ button{
     font-weight: normal;
     font-style: normal;
     border: none;
+}
+button:hover{
+    background: rgb(40, 191, 123) none repeat scroll 0% 0%;
 }

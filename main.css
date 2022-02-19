@@ -16,11 +16,14 @@ html, body {
     height: 60px;
     /* background-color: blue; */
     margin: 0 20px 0 20px;
+    display: grid;
+    grid-template-columns: 10% 90%;
+
 }
 .menuitems{
     height: 60px;
     display:grid;
-    grid-template-columns: 5% 10% 10% 10% 10% 35% 10% 10% ; 
+    grid-template-columns: 10% 10% 10% 10% 40% 10% 10% ; 
     /* gap: 2px; */
     text-align: center;
     align-content: center;
@@ -29,5 +32,5 @@ html, body {
     background-color: black;
 } */
 #logo{
-    background: url("Logo.png");
+    background-color: black;
 }

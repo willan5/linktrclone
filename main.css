@@ -25,6 +25,9 @@ html, body {
     text-align: center;
     align-content: center;
 }
+.mainitems{
+    background-color: black;
+}
 #logo{
     background-image: url("Logo.png");
 }

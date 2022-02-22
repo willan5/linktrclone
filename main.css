@@ -55,4 +55,9 @@ button:hover{
     display: grid;
     grid-template-columns: 100%;
 }
-.tittleframe
+.tittleframe{
+    display: grid;
+    grid-template-rows: auto;
+    gap: 10px;
+    background-color: url('titlebackground.png');
+}

@@ -63,7 +63,6 @@ button:hover{
     grid-template-columns: 100%;
     width: 100%;
     margin:0px auto;
-
 }
 .titleframe{
     display: grid;
@@ -75,7 +74,6 @@ button:hover{
     background-position: center;  
     margin-top: 90px;
 } 
-
 #maintitleframe{
     color:rgb(19, 20, 21);
     font-size:60px;
@@ -176,7 +174,6 @@ a{
     -ms-border-radius:10px;
     -o-border-radius:10px;
 }
-
 .socialmediaicons{
     height: 30px;
     margin-top: 30px;
@@ -246,8 +243,7 @@ a{
     background-position: center center;
     height: 30px;
     width:30px;
-    margin: 10px;    
-    
+    margin: 10px;        
 }
 .leaftree{
     height: 30px;
@@ -281,16 +277,14 @@ a{
     }
   }
   .empty{
-      height:100px;
-      
+      height:100px;    
   }
   .slidinganimation{
       min-height: auto;
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 20px;
-      box-sizing: border-box;
-      
+      box-sizing: border-box;    
   }
   .leftside{
       height: 200px;
@@ -322,36 +316,32 @@ a{
       grid-template-columns: 1fr 1fr 1fr;
       height:auto;
       justify-items: center;
-        
+      width:100%;      
   }
   .greenleafcustom{
       width: 300px;
-
+      margin-left: 80px;
   }
   .imagecontainerone{
     background-image: url(five.webp);
     background-repeat: no-repeat;
     background-size: contain;
     height:200px;
-    width:300px;
-    
+    width:300px;  
   }
   .imagecontainertwo{
     background-image: url(four.webp);
     background-repeat: no-repeat;
     background-size: contain;
     height:200px;
-    width:300px;
-    
-    
+    width:300px; 
   }
   .imagecontainerthree{
     background-image: url(six.webp);
     background-repeat: no-repeat;
     background-size: contain;
     height:200px;
-    width:300px;
-    
+    width:300px;  
   }
   .featureholder{
       margin:0 auto;
@@ -386,3 +376,193 @@ a{
     color: rgb(255, 255, 255);
     background-color: rgb(117, 81, 233);
 }
+.lowerframe{
+    height: auto;
+    width: 100%;
+}
+.lowertitle{
+    padding: 10px;
+    width:50%;
+}
+.loweruppertitle{
+    font-size: 26px;
+    color:rgb(19, 20, 21);
+    line-height:1.6;
+    margin-bottom: 10px;
+    font-weight: normal;
+    display:block;
+}
+.lowerlowertitle{
+    color:rgb(83, 88, 95);
+    font-size:20px;
+    letter-spacing: -0.4px;
+    line-height:1.6;
+    max-width: 760px;
+    display:block;
+    text-align: left;
+    font-weight: normal;
+}
+.celebs{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    overflow-x: scroll;
+    gap:20px;
+    padding:10px;
+    height: 250px;
+    width: auto;
+    margin-bottom: 140px;
+}
+.celebpics{
+    width:280px;
+    height: 180px;
+    top: 0px;
+    left: 0px;
+    clip-path: inset(0px round 30px);
+    opacity: 1;
+    transition: clip-path 0.35s ease 0s;
+    -webkit-transition: clip-path 0.35s ease 0s;
+    -moz-transition: clip-path 0.35s ease 0s;
+    -ms-transition: clip-path 0.35s ease 0s;
+    -o-transition: clip-path 0.35s ease 0s;
+} 
+.selenacontainer{
+    display:grid;
+}
+.guardiancontainer{
+    display:grid;
+}
+.garycontainer{
+    display:grid;
+}
+.clipperscontainer{
+    display:grid;
+}
+.aliciacontainer{
+    display:grid;
+}
+.bullcontainer{
+    display:grid;
+}
+.pharellcontainer{
+    display:grid;
+}
+.rhettcontainer{
+    display:grid;
+}
+.comedycontainer{
+    display:grid;
+}
+.qantascontainer{
+    display:grid;
+}
+.patreoncontainer{
+    display:grid;
+}
+.pariscontainer{
+    display:grid;
+}
+.leaflogo{
+    background-image: url('flowerlogo.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    height: 20px;
+    width: 20px;
+    grid-area: 2/1;
+    margin-top:-40px;
+    margin-left: 20px;
+    z-index: 1;   
+}
+.selenacontainer>div:nth-child(1){
+    background-image: url('selena.webp');
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.guardiancontainer>div:nth-child(1){
+    background-image: url(guardian.webp);
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+.garycontainer>div:nth-child(1){
+    background-image: url(gary.webp);
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+.clipperscontainer>div:nth-child(1){
+    background-image: url(clippers.webp);
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+.aliciacontainer>div:nth-child(1){
+    background-image: url(alicia.webp);
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+.bullcontainer>div:nth-child(1){
+    background-image: url(redbull.webp);
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+.pharellcontainer>div:nth-child(1){
+    background-image: url(pharrell.webp);
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+.rhettcontainer>div:nth-child(1){
+    background-image: url(rhet.webp);
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+.comedycontainer>div:nth-child(1){
+    background-image: url(comedy.webp);
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+.qantascontainer>div:nth-child(1){
+    background-image: url(qantas.webp);
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+.patreoncontainer>div:nth-child(1){
+    background-image: url(patreon.webp);
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+.pariscontainer>div:nth-child(1){
+    background-image: url(paris.webp);
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+.celebpics:hover{
+    clip-path: inset(0px round 50px);
+    
+}
+.selenaiconcontainer{
+    display:grid;
+    grid-template-columns:1fr 3fr;
+}
+.selenaicon{
+    background-image: url(selena.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width:30px;
+    height:30px;
+    margin:10px;
+    clip-path: inset(0px  round  50%);
+    display:grid;    
+}
+.selenasig{
+    width:auto;
+    height:30px;
+    margin-top:10px;
+    display:grid;
+    grid-template-columns:1fr;
+    justify-items: stretch;
+    align-items: center;    
+}
+
+
+
+
+

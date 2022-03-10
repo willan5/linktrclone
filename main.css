@@ -410,7 +410,7 @@ a{
     padding:10px;
     height: 250px;
     width: auto;
-    margin-bottom: 140px;
+    margin-bottom: 60px;
 }
 .celebpics{
     width:280px;
@@ -561,7 +561,35 @@ a{
     justify-items: stretch;
     align-items: center;    
 }
-
+.titlebutton1{
+    margin:0 auto;
+    height:54px;
+    width: 20%;
+    display:grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 60px;
+}
+#startbutton1{
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    background:rgb(117, 81, 233) none repeat scroll 0% 0%;
+    font-size:16px;
+    color:rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: normal;
+}
+#startbutton1:hover {
+    background:rgb(99, 68, 198) none repeat scroll 0% 0%;
+    color: rgb(255, 255, 255);
+}
+hr{
+    margin: 0 auto;
+    width:70%;
+    color:rgb(69, 90, 100);
+}
 
 
 

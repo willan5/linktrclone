@@ -8,24 +8,29 @@ html{
   }
   body{
       min-height:100vh;
+      width:100%;
+      margin:0 auto;
       color: rgb(69, 90, 100);
-      overflow-x: hidden;
-    
+      overflow-x: hidden; 
   }
   .primaryframe{
-      height: 65px;
-      width: 100%;
-      box-shadow: rgb(215, 220, 225) 0px -1px 0px inset;
+      height: 100%;
+      width: 100%; 
       outline: none;
-      position: relative;
-      
+      margin: 0 auto;      
   }
   .secondaryframe{
     height: 65px;
     margin: 0 20px 0 20px;
+    margin:0 auto;
     display: grid;
     grid-template-columns: 10% 90%;
     gap: 30px;
+    width:100%;
+    box-shadow: rgb(215, 220, 225) 0px -1px  0px inset;
+    background-color:rgb(255, 255, 255); 
+    position: fixed;
+        
 }
 .menuitems{
     height: 65px;
@@ -33,6 +38,7 @@ html{
     grid-template-columns: 8% 8% 8% 8% 45% 5% 15% ; 
     text-align: center;
     align-content: center;
+    /* position: fixed; */
     
 }
 .logo{
@@ -122,7 +128,7 @@ a{
     height:auto;
     width: 100%;
     margin:0px auto;
-    margin-top:20px;
+    margin-top:20px;   
 }
 .inneritems{
     margin:0 auto;
@@ -132,7 +138,8 @@ a{
     -moz-border-radius: 40px;
     -ms-border-radius: 40px;
     -o-border-radius: 40px;
-    overflow: hidden;
+    /* overflow: hidden; */
+    z-index: -1;
     height:500px;
     padding: 30px;
     background-image: linear-gradient(155deg, rgb(11, 175, 255), rgb(57, 224, 155) 50%, rgb(255, 194, 19));
@@ -391,12 +398,14 @@ a{
     margin-bottom: 10px;
     font-weight: normal;
     display:block;
+    padding-left: 70px;
 }
 .lowerlowertitle{
     color:rgb(83, 88, 95);
     font-size:20px;
     letter-spacing: -0.4px;
     line-height:1.6;
+    padding-left: 70px;
     max-width: 760px;
     display:block;
     text-align: left;
@@ -411,12 +420,15 @@ a{
     height: 250px;
     width: auto;
     margin-bottom: 60px;
+    padding-left: 70px;
+    padding-right: 70px;
 }
 .celebpics{
     width:280px;
     height: 180px;
     top: 0px;
     left: 0px;
+    z-index: -1;
     clip-path: inset(0px round 30px);
     opacity: 1;
     transition: clip-path 0.35s ease 0s;
@@ -587,10 +599,144 @@ a{
 }
 hr{
     margin: 0 auto;
-    width:70%;
-    color:rgb(69, 90, 100);
+    width:90%;
+    color:rgb(215, 220, 225);
+    border-top:1px;
 }
-
+.featuress{
+    margin: 0 auto;
+    height:auto;
+    margin-top:20px;
+    width:100%;
+}
+.featuredholder{
+    margin:0 auto;
+    width:250px;
+    height:50px;
+    display:grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;   
+}
+#featured{
+    font-size: 20px;
+    color: rgb(38, 50, 56);
+    line-height: 1.6;
+}
+.featuredcompanies{
+    width:80%;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    gap:20px;
+    margin: 0 auto;
+}
+.holder{
+    padding:30px;
+    margin-top:10px;
+    fill: rgb(69, 90, 100);
+    background-color:rgb(245, 247, 248);
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+}
+.digitaltrend{
+    height:30px;
+    background-image: url("digital.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.enterprenuer{
+    height:30px;
+    background-image: url("entrepreneur.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.forbes{
+    height:30px;
+    background-image: url("forbes.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.engadget{
+    height:30px;
+    background-image: url("engadget.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.shortlinks{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 70px;
+    gap:5px;
+    width:70%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+.company{
+    display: grid;
+    justify-items: left;
+    font-size: 14px;
+}
+#links{
+    text-decoration:none;
+    padding:3px;
+}
+#links:hover{
+    text-decoration: underline;
+}
+h3{
+    color: rgb(19, 20, 21);
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: calc(-0.32px);
+    font-weight: normal;
+}
+.upperfooter{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width:16%;
+    height:30px;
+    margin-left: 70px;
+    margin-top: 15px;
+      
+}
+.footerlogo{
+    background-image: url(logo2.png);
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position:center center;
+    height:30px; 
+}.flowerlogo{
+    background-image: url(flowerlogo.png);
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position:center center;
+    height:30px;
+}
+#social{
+    width:16%;
+    margin-left: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;    
+}
+.kenya{
+    margin:0 auto;
+    width: 50px;
+    height:30px;
+    background-image:url('kenya.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center center;
+    margin-top:10px;
+    margin-bottom:10px;
+}
 
 
 

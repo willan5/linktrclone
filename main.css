@@ -700,25 +700,26 @@ h3{
 }
 .upperfooter{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.2fr 0.1fr;
     width:16%;
-    height:30px;
-    margin-left: 70px;
-    margin-top: 15px;
-      
+    height:20px;
+    margin-left: 110px;
+    margin-top: 15px;      
 }
 .footerlogo{
     background-image: url(logo2.png);
     background-size: contain;
     background-repeat:no-repeat;
     background-position:center center;
-    height:30px; 
+    height:20px;
+    width:100px; 
 }.flowerlogo{
     background-image: url(flowerlogo.png);
     background-size: contain;
     background-repeat:no-repeat;
     background-position:center center;
-    height:30px;
+    height:20px;
+    width:20px;
 }
 #social{
     width:16%;

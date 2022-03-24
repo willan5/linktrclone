@@ -13,6 +13,9 @@ html{
       color: rgb(69, 90, 100);
       overflow-x: hidden; 
   }
+  * {
+    box-sizing: border-box;
+  }
   .primaryframe{
       height: 100%;
       width: 100%; 
@@ -35,8 +38,8 @@ html{
     height: 65px;
     display:grid;
     grid-template-columns: 8% 8% 8% 8% 45% 5% 15% ; 
-    text-align: center;
-    align-content: center;    
+    justify-items: center;
+    align-items: center;    
 }
 .dropdown .dropdown-content{
     display:none;
@@ -105,6 +108,24 @@ button:hover{
     width: 100%;
     margin:0px auto;
 }
+/* @media only screen and (max-width: 768px){
+    .menuitems{
+        display: none;
+        width: 0%;
+    } 
+    .mobilemenu{
+        display:grid;
+        grid-template-columns:1fr auto auto;
+        gap:5px;
+        margin:0 auto;
+    }  
+} */
+/* @media only screen and (max-width: 768px){
+    .mobileitems{
+        display: none;
+    }    
+} */
+
 .titleframe{
     display: grid;
     grid-template-rows: auto;
@@ -167,7 +188,7 @@ a{
 }
 .inneritems{
     margin:0 auto;
-    width: 200px;
+    width: 210px;
     border-radius: 40px;
     -webkit-border-radius: 40px;
     -moz-border-radius: 40px;
@@ -175,8 +196,8 @@ a{
     -o-border-radius: 40px;
     /* overflow: hidden; */
     z-index: -1;
-    height:500px;
-    padding: 30px;
+    height:450px;
+    padding: 20px;
     background-image: linear-gradient(155deg, rgb(11, 175, 255), rgb(57, 224, 155) 50%, rgb(255, 194, 19));
     position:relative;
     box-sizing: rgba(0, 0, 0, 0.08) 0px 96px 96px 0px;

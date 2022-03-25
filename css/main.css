@@ -77,10 +77,8 @@ html{
     font-weight: 400 !important;
     text-decoration: none;   
 }
- 
-
 .logo{
-    background-image: url(logo2.png);
+    background-image: url('../images/logo2.png');
     justify-content:center;
     background-size: contain;
     background-repeat:no-repeat;
@@ -129,7 +127,7 @@ button:hover{
 .titleframe{
     display: grid;
     grid-template-rows: auto;
-    background-image: url('titlebackground.png');
+    background-image: url('../images/titlebackground.png');
     justify-content: center;
     background-repeat: no-repeat;
     background-size:contain;
@@ -203,7 +201,7 @@ a{
     box-sizing: rgba(0, 0, 0, 0.08) 0px 96px 96px 0px;
 }
 .inneritems::after{
-    background-image: url(device.png);
+    background-image: url('../images/device.png');
     background-repeat: no-repeat;
     background-position:center top;
     background-size: contain;
@@ -212,7 +210,7 @@ a{
     position: absolute;      
 }
 .animationicon{
-    background-image: url(9.gif);
+    background-image: url(../images/9.gif);
     background-repeat: no-repeat;
     background-size: contain;
     height: 100px;
@@ -251,21 +249,21 @@ a{
     align-content: center;    
 }
 .facebook{
-    background-image: url(facebook.png);
+    background-image: url(../images/facebook.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 30px;
     height: 20px;
 }
 .instagram{
-    background-image: url(instagram.png);
+    background-image: url(../images/instagram.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 30px;
     height: auto;
 }
 .twitter{
-    background-image: url(twitter.png);
+    background-image: url(../images/twitter.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 30px;
@@ -300,7 +298,7 @@ a{
     align-items: center;
 }
 .imglogo{
-    background-image: url('flowerlogo.png');
+    background-image: url('../images/flowerlogo.png');
     background-repeat: no-repeat;
     background-size:contain;
     background-position: center center;
@@ -386,21 +384,21 @@ a{
       margin-left: 80px;
   }
   .imagecontainerone{
-    background-image: url(five.webp);
+    background-image: url(../images/five.webp);
     background-repeat: no-repeat;
     background-size: contain;
     height:200px;
     width:300px;  
   }
   .imagecontainertwo{
-    background-image: url(four.webp);
+    background-image: url(../images/four.webp);
     background-repeat: no-repeat;
     background-size: contain;
     height:200px;
     width:300px; 
   }
   .imagecontainerthree{
-    background-image: url(six.webp);
+    background-image: url(../images/six.webp);
     background-repeat: no-repeat;
     background-size: contain;
     height:200px;
@@ -530,7 +528,7 @@ a{
     display:grid;
 }
 .leaflogo{
-    background-image: url('flowerlogo.png');
+    background-image: url('../images/flowerlogo.png');
     background-repeat: no-repeat;
     background-position:center;
     background-size:cover;
@@ -541,62 +539,62 @@ a{
     margin-left: 20px;
 }
 .selenacontainer>div:nth-child(1){
-    background-image: url('selena.webp');
+    background-image: url('../images/selena.webp');
     background-repeat:no-repeat;
     background-size: cover;
 }
 .guardiancontainer>div:nth-child(1){
-    background-image: url(guardian.webp);
+    background-image: url(../images/guardian.webp);
     background-repeat: no-repeat;
     background-size: cover;    
 }
 .garycontainer>div:nth-child(1){
-    background-image: url(gary.webp);
+    background-image: url(../images/gary.webp);
     background-repeat: no-repeat;
     background-size: cover;    
 }
 .clipperscontainer>div:nth-child(1){
-    background-image: url(clippers.webp);
+    background-image: url(../images/clippers.webp);
     background-repeat: no-repeat;
     background-size: cover;    
 }
 .aliciacontainer>div:nth-child(1){
-    background-image: url(alicia.webp);
+    background-image: url(../images/alicia.webp);
     background-repeat: no-repeat;
     background-size: cover;    
 }
 .bullcontainer>div:nth-child(1){
-    background-image: url(redbull.webp);
+    background-image: url(../images/redbull.webp);
     background-repeat: no-repeat;
     background-size: cover;    
 }
 .pharellcontainer>div:nth-child(1){
-    background-image: url(pharrell.webp);
+    background-image: url(../images/pharrell.webp);
     background-repeat: no-repeat;
     background-size: cover;    
 }
 .rhettcontainer>div:nth-child(1){
-    background-image: url(rhet.webp);
+    background-image: url(../images/rhet.webp);
     background-repeat: no-repeat;
     background-size: cover;    
 }
 .comedycontainer>div:nth-child(1){
-    background-image: url(comedy.webp);
+    background-image: url(../images/comedy.webp);
     background-repeat: no-repeat;
     background-size: cover;    
 }
 .qantascontainer>div:nth-child(1){
-    background-image: url(qantas.webp);
+    background-image: url(../images/qantas.webp);
     background-repeat: no-repeat;
     background-size: cover;    
 }
 .patreoncontainer>div:nth-child(1){
-    background-image: url(patreon.webp);
+    background-image: url(../images/patreon.webp);
     background-repeat: no-repeat;
     background-size: cover;    
 }
 .pariscontainer>div:nth-child(1){
-    background-image: url(paris.webp);
+    background-image: url(../images/paris.webp);
     background-repeat: no-repeat;
     background-size: cover;    
 }
@@ -610,7 +608,7 @@ a{
     z-index: -1;
 }
 .selenaicon{
-    background-image: url(selena.webp);
+    background-image: url(../images/selena.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -622,7 +620,7 @@ a{
     display:grid;    
 }
 .bullicon{
-    background-image: url(selena.webp);
+    background-image: url(../images/selena.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -634,7 +632,7 @@ a{
     display:grid;    
 }
 .guardianicon{
-    background-image: url(g.webp);
+    background-image: url(../images/g.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -646,7 +644,7 @@ a{
     display:grid;    
 }
 .pharellicon{
-    background-image: url(pharrell.webp);
+    background-image: url(../images/pharrell.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -658,7 +656,7 @@ a{
     display:grid;    
 }
 .aliciaicon{
-    background-image: url(alicia.webp);
+    background-image: url(../images/alicia.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -670,7 +668,7 @@ a{
     display:grid;    
 }
 .clippersicon{
-    background-image: url(cl.webp);
+    background-image: url(../images/cl.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -682,7 +680,7 @@ a{
     display:grid;    
 }
 .garyicon{
-    background-image: url(gary.webp);
+    background-image: url(../images/gary.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -694,7 +692,7 @@ a{
     display:grid;    
 }
 .qantasicon{
-    background-image: url(qa.webp);
+    background-image: url(../images/qa.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -706,7 +704,7 @@ a{
     display:grid;    
 }
 .parisicon{
-    background-image: url(l.webp);
+    background-image: url(../images/l.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -718,7 +716,7 @@ a{
     display:grid;    
 }
 .comedyicon{
-    background-image: url(c.webp);
+    background-image: url(../images/c.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -730,7 +728,7 @@ a{
     display:grid;    
 }
 .rhetticon{
-    background-image: url(rhet.webp);
+    background-image: url(../images/rhet.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -742,7 +740,7 @@ a{
     display:grid;    
 }
 .patreonicon{
-    background-image: url(p.webp);
+    background-image: url(../images/p.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -840,14 +838,14 @@ hr{
 }
 .digitaltrend{
     height:30px;
-    background-image: url("digital.svg");
+    background-image: url("../images/digital.svg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 .enterprenuer{
     height:30px;
-    background-image: url("entrepreneur.svg");
+    background-image: url("../images/entrepreneur.svg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -861,7 +859,7 @@ hr{
 }
 .engadget{
     height:30px;
-    background-image: url("engadget.svg");
+    background-image: url("../images/engadget.svg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -904,14 +902,14 @@ h3{
     margin-top: 15px;      
 }
 .footerlogo{
-    background-image: url(logo2.png);
+    background-image: url(../images/logo2.png);
     background-size: contain;
     background-repeat:no-repeat;
     background-position:center center;
     height:20px;
     width:100px; 
 }.flowerlogo{
-    background-image: url(flowerlogo.png);
+    background-image: url(../images/flowerlogo.png);
     background-size: contain;
     background-repeat:no-repeat;
     background-position:center center;
@@ -928,7 +926,7 @@ h3{
     margin:0 auto;
     width: 50px;
     height:30px;
-    background-image:url('kenya.png');
+    background-image:url('../images/kenya.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position:center center;

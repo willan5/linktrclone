@@ -977,7 +977,7 @@ h3{
         display:grid;
         grid-template-columns: 1fr;
         height:50px;
-        padding:0 20px;
+        padding:0 5px;
         margin:0 auto;
         gap:10px;
         width:100%;
@@ -1009,7 +1009,7 @@ h3{
     }
     .mobonav button{
         background:rgb(57, 224, 155) none repeat scroll 0% 0%;
-        padding:10px 20px;
+        padding:10px 0px;
         border-radius: 5px;
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
@@ -1025,9 +1025,9 @@ h3{
         justify-content: center;
         align-items: center;
     }
-    .mobobutton{
+    /* .mobobutton{
         width:110px;    
-    }
+    } */
     .mobonav .menuicon{
         background-image: url("../images/menu.png");
         background-size: contain;
@@ -1079,7 +1079,7 @@ h3{
         justify-content: center;
         align-items: center;
         width:250px; 
-        margin-left:100px;
+        /* margin-left:300px; */
         
           
     }

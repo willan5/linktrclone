@@ -959,6 +959,107 @@ h3{
 .lowermobileshow{
     display:none;
 }
+
+@media screen and (max-width:760px){
+    .menuitems{
+        display:none;
+    }
+    .menuitem{
+        display:none;
+    }
+    .logo{
+        display:none;
+    }
+    .secondaryframe{
+        display:grid;
+        grid-template-columns: 1fr;
+        height:110px;
+        max-width:700px;
+        padding:0 20px;
+        margin:0 auto;
+        box-shadow: rgb(215, 220, 225) 0px -1px  0px inset;
+        background-color:rgb(255, 255, 255); 
+        position: fixed;    
+    }
+    .lowermobileshow{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        background-color: #fff;
+        max-width: 700px;
+    }
+    .mobomenu{
+        display:grid;
+        max-width: 700px;
+        grid-template-columns:1fr 2fr;
+        align-content: center;
+        background-color:white ;   
+    }
+    .logomobo{
+        width: 200px;
+        max-width:100px;
+        background-image: url('../images/logo2.png');
+        justify-content:center;
+        background-size: contain;
+        background-repeat:no-repeat;
+        background-position:center;
+        height: auto;  
+    }
+    .mobonav{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center; 
+        max-width:700px;   
+    }
+    button{
+        background:rgb(57, 224, 155) none repeat scroll 0% 0%;
+        border-radius: 5px;
+        width: 100%;
+    }
+    .mobobutton{
+        background:rgb(57, 224, 155) none repeat scroll 0% 0%;
+        padding:0px 0px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        font-size:10px;
+        margin-right:0;
+        margin-bottom: 0;
+        border: none;
+    }
+    .mobolog{
+        display:grid;
+        height: 30px;
+    
+        font-size:15px;
+        padding: auto;
+        justify-items: center;
+        align-items: center;
+        
+    
+    }
+    .menuicon{
+        display:grid;
+        background-image: url("../images/menu.png");
+        background-size: contain;
+        background-repeat:no-repeat;
+        background-position:center;
+        height: 30px;        
+    } 
+    .maintitleframe{
+        font-size:7px;
+        text-indent: 20px;
+        line-height:20;
+    
+    }  .slidinganimation{
+        grid-template-columns: 1fr;
+        margin-top:10px;
+    }
+    .lefttop{
+        padding-top:0px;
+    }
+} 
 @media (max-width:500px){
     .menuitems{
         display:none;
@@ -1059,106 +1160,6 @@ h3{
         padding-top:0px;
     }
     
-} 
-@media screen and (max-width:760px){
-    .menuitems{
-        display:none;
-    }
-    .menuitem{
-        display:none;
-    }
-    .logo{
-        display:none;
-    }
-    .secondaryframe{
-        display:grid;
-        grid-template-columns: 1fr;
-        height:110px;
-        max-width:700px;
-        padding:0 20px;
-        margin:0 auto;
-        box-shadow: rgb(215, 220, 225) 0px -1px  0px inset;
-        background-color:rgb(255, 255, 255); 
-        position: fixed;    
-    }
-    .lowermobileshow{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        background-color: #fff;
-        max-width: 700px;
-    }
-    .mobomenu{
-        display:grid;
-        max-width: 700px;
-        grid-template-columns:1fr 2fr;
-        align-content: center;
-        background-color:white ;   
-    }
-    .logomobo{
-        width: 200px;
-        max-width:100px;
-        background-image: url('../images/logo2.png');
-        justify-content:center;
-        background-size: contain;
-        background-repeat:no-repeat;
-        background-position:center;
-        height: auto;  
-    }
-    .mobonav{
-        display:grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        align-items: center; 
-        max-width:700px;   
-    }
-    button{
-        background:rgb(57, 224, 155) none repeat scroll 0% 0%;
-        border-radius: 5px;
-        width: 100%;
-    }
-    .mobobutton{
-        background:rgb(57, 224, 155) none repeat scroll 0% 0%;
-        padding:0px 0px;
-        border-radius: 5px;
-        -webkit-border-radius: 5px;
-        -moz-border-radius: 5px;
-        -ms-border-radius: 5px;
-        -o-border-radius: 5px;
-        font-size:10px;
-        margin-right:0;
-        margin-bottom: 0;
-        border: none;
-    }
-    .mobolog{
-        display:grid;
-        height: 30px;
-    
-        font-size:15px;
-        padding: auto;
-        justify-items: center;
-        align-items: center;
-        
-    
-    }
-    .menuicon{
-        display:grid;
-        background-image: url("../images/menu.png");
-        background-size: contain;
-        background-repeat:no-repeat;
-        background-position:center;
-        height: 30px;        
-    } 
-    .maintitleframe{
-        font-size:7px;
-        text-indent: 20px;
-        line-height:20;
-    
-    }  .slidinganimation{
-        grid-template-columns: 1fr;
-        margin-top:10px;
-    }
-    .lefttop{
-        padding-top:0px;
-    }
 } 
 
 

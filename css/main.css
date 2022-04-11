@@ -1036,8 +1036,6 @@ h3{
         padding: auto;
         justify-items: center;
         align-items: center;
-        
-    
     }
     .menuicon{
         display:grid;
@@ -1108,7 +1106,7 @@ h3{
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
         align-items: center; 
-        max-width:250px;   
+        max-width:200px;   
     }
     button{
         background:rgb(57, 224, 155) none repeat scroll 0% 0%;
@@ -1161,6 +1159,7 @@ h3{
     }
     
 } 
+
 
 
 
